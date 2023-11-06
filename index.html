@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/w3images/profile_girl.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium" style="width:40%">
+  <div class="w3-center"><img src="logolpc.png" alt="" srcset=""></div>
+  <br>
+  <div class="w3-center"><img src="logoetec.png" alt="" srcset=""></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#home" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Trabalho PCD</a>
+    <a href="#idoso" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Trabalho Estatuto Do Idoso</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Sobre</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo w3-purple"><b>LABORATÓRIO DE PROCESSOS CRIATIVOS</b></h1>
+    <p>Feito por: Alice, Andre, Ana Haellyn, Evelly, Gabriel e Joaquim do 2º MT</p>
+    <br>
+    <div id="portfolio">
+    <h2> Inclusão e Acessibilidade</h2>
+    <img src="fotinha.jpeg" style="width:60%">
+    <p>No dia 10/05 apresentamos um seminário sobre <b>Inclusão e Acessibilidade</b>, 
+      onde discutimos as diferenças entre os dois termos e analisamos 5 aplicativos 
+      que tinham o proposito de auxiliar o dia a dia de pessoas com deficiência, 
+      apontando seus pontos negativos e positivos.
+    </p>
+       <p> O trabalho permitiu discuções importantes entre os alunos e professor em sala de aula, 
+        possibilitando reflexão e dando espaço para cada um relacionar o tema da apresentação com sua realidade.</p>
+      </div>
+
+      <br>
+    <p style="text-align:left;">    "É comum que termos usados para descrever experiencias de minorias na sociedade
+      sejam confundidos e usados de forma errada. Isso é visto muitas vezes com a inclusão e a
+      acessibilidade.
+      <br>
+      <b>Acessibilidade:</b> Com a acessibilidade são trabalhadas transformações de um ambiente
+      físico e digital para pessoas com deficiências poderem ter autonomia e liberdade.
+      <br>
+      <b>Inclusão:</b> Já a inclusão trata de um conjunto de ações que combatem a exclusão na
+      sociedade por causa de diferenças. Ela não advoga somente pela acessibilidade mas também
+      garante que classe social, idade, educação gênero e raça não sejam barreiras para oportunidades
+      que são direito de todos.[...]"
+    </p>
+
+    <img src="cadeirante (1).jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="cadeirante.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <div>&nbsp;</div>
+      <a href="Apresentação Inclusão LPC.pdf" target="_blank"><i class="fa fa-download"></i> Baixar nosso PDF</a>
+    </button>
+
+    
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" >
+    <h2 class="w3-text-grey"></h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="piso-tatil-para-deficiente-visual.jpg" style="width:100%">
+        <img src="como-ajudar-a-crianca-a-entender-a-deficiencia-md.jpg" style="width:100%">
+        <img src="atendimento-pacientes-deficiencia-auditiva-surdez-libras.webp" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="salamanca.jpg" style="width:100%">
+        <img src="deficientevisual3.jpg" style="width:100%">
+        <img src="RONALDOTALVERES.jpg" style="width:100%">
+        <img src="libras.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <br>
+  <div class="w3-container w3-center" style="padding:128px 16px" id="idoso">
+    <h2 > Estatuto da Pessoa Idosa</h2>
+    <img src="fotinha2.jpeg" style="width:60%">
+    <p>No dia 09/05 apresentamos um seminário sobre o <b>Estatuto do Idoso</b>, 
+      onde discutimos a importancia de conhecer essa parte da população e respeitar seus direitos. 
+      Na apresentação explicamos oque é idadismo, falamos sobre a exclusão digital das pessoas da 
+      terceira idade e discutimos alguns dos principais direitos que vem com o estatuto.
+    </p>
+       <p> O trabalho permitiu discuções importantes entre os alunos e professor em sala de aula, 
+        possibilitando reflexão e dando espaço para cada um relacionar o tema da apresentação com sua realidade.</p>
+
+      <br>
+    <p style="text-align:left;"> "SUA IMPORTÂNCIA: A LEI FOI CRIADA PARA EVITAR PROBLEMAS COMO ABANDONO
+      FAMILIAR, NEGLIGÊNCIA, DISCRIMINAÇÃO E QUALQUER TIPO DE VIOLÊNCIA CONTRA
+      PESSOAS DE IDADE IGUAL OU SUPERIOR A 60 ANOS, TENDO TRAZIDO À TONA O LEMBRETE
+      DE QUE TODOS ESTÃO SUJEITOS A ENVELHECER."
+    </p>
+
+    <img src="cadeirante (1).jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="cadeirante.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <div>&nbsp;</div>
+      <a href="Trabalho LPC Idosos .pdf" target="_blank"><i class="fa fa-download"></i> Baixar nosso PDF</a>
+    </button>
+
+    <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">Portfólio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="idosofeliz.jpg" style="width:100%">
+        <img src="idosofelizz.jpg" style="width:100%">
+        <img src="idosofelizzz.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="idosofelizzzz.jpg" style="width:100%">
+        <img src="idosofelizzzzz.jpeg" style="width:100%">
+        <img src="idosofelizzzzzz.jpg" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2></h2>
+
+       
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">Membros da equipe: </h3>
+    <img src="andre.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">André Henrique Rodrigues</span>Web Designer e Progamador</p>
+    <p>Auxilio na progamação e responsável pela escolha das imagens e layout do site.</p><br>
+   
+    <img src="sazo.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Gabriel Lucas Sacheto Dias</span>Web Designer</p>
+    <p>Deu sugestões para o site e ajudou na montagem dos slides.</p><br>
+    
+    <img src="alice.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Alice Calado</span>Designer dos Slides</p>
+    <p>Responsável por montar os slides</p><br>
+
+    <img src="haellyn.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Ana Haellyn</span>Ajudante</p>
+    <p>Deu algumas sugestões para os slides e o website</p><br>
+
+    <img src="gabi.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Evelly Gabrielly</span>Pesquisadora</p>
+    <p>Ajudou na pesquisas dos slides e do site.</p><br>
+
+    <img src="quinn.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Joaquim Fernando Campos</span>Pesquisador</p>
+    <p>Ajudou na pesquisas do slides dos slides e do site.</p><br>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->*
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contatos</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Barretos, São Paulo, Brasil</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: +55 17 99229-5105</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: acessibildadebarretos@gmail.com</p>
+    </div>
+    
+   <br>
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Feito por <a href="https://www.youtube.com/watch?v=awoFZaSuko4 " target="_blank" class="w3-hover-text-green">Alice, André,Ana Haellyn, Evelly, Gabriel, quinn</a></p>
+  <!-- End footer -->
+  <br>
+  </footer>
+  
+<!-- END PAGE CONTENT --> 
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
